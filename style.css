@@ -1,0 +1,32 @@
+img{
+    margin-top: 30px;
+}
+button{
+    margin-top: 40px;
+    font-family: monospace;
+}
+body{
+    background-size:cover ;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/4d845686128681.5d909dad4ddd3.jpg");
+}
+.header_div{
+    background-color: cornflowerblue;
+    color: white;
+}
+.copy_right_footer{
+text-shadow: -1px 3px 6px rgb(100, 100, 100);
+    font-family: monospace;
+    position: fixed;
+    bottom: 0;
+    margin-left: 10px;
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#result_label,#result_confidence{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
