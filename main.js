@@ -23,20 +23,20 @@ function gotResults(error, results) {
         
     bark="bark.gif";
     moo="Moo.gif";
-    roar="Roar.gif";
     meow="meow.gif";
+    roar="Roar.gif";
 
-        if(results[0].label==Barking){
-            document.getElementById("sound").src=bark;
-        }
-        if(results[0].label==Roaring){
+        if(results[0].label=="Barking")
+        { document.getElementById("sound").src=bark; }
+
+        if(results[0].label=="Roaring"){
             document.getElementById("sound").src=roar;
         }
-        if(results[0].label==Mooing){
+        if(results[0].label=="Mooing"){
             document.getElementById("sound").src=moo;
         }
-        if(results[0].label==Meowing){
+        if(results[0].label=="Meowing"){
             document.getElementById("sound").src=meow;
         }
+        }
     }
-}
