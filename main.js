@@ -25,6 +25,7 @@ function gotResults(error, results) {
     moo="Moo.gif";
     meow="meow.gif";
     roar="Roar.gif";
+    background_noise="listen.gif";
 
         if(results[0].label=="Barking")
         { document.getElementById("sound").src=bark; }
@@ -38,5 +39,9 @@ function gotResults(error, results) {
         if(results[0].label=="Meowing"){
             document.getElementById("sound").src=meow;
         }
+        if(results[0].label=="Background Noise"){
+            document.getElementById("sound").src=background_noise;
+        }
+
         }
     }
